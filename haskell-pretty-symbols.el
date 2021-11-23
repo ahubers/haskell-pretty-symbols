@@ -42,10 +42,13 @@
    (list
     ;; O-ops (for Datatypes a la carte)
     (list (haskell-escape-regex "\\:\\.\\:") "⊙")
+    (list (haskell-escape-regex "\\:\\-\\:") "⊖")
     (list (haskell-escape-regex "\\:\\/\\:") "⊘")
     (list (haskell-escape-regex "\\:\\+\\:") "⊕")
     (list (haskell-escape-regex "\\:\\*\\:") "⊗")
     (list (haskell-escape-regex "\\:<\\:") "≺")
+    (list (haskell-escape-regex "\\\\/") "▿")
+    
     
     ;; Ord comparators
     (list (haskell-escape-regex ">=") "≥")
