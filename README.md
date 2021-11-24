@@ -6,22 +6,11 @@ just restyled in your Emacs buffer.
 
 I stole most of the code from https://github.com/epa095/latex-pretty-symbols.el.
 
-## FAQ
+### Contribution
 
-### Why?
+Feel free to add a symbol and open a PR.
 
-I don't know.
-
-### Is it complete?
-
-No. You can open a PR if you want to add more symbols. It should be easy to
-modify.
-
-### Is it sensible?
-
-No.
-
-## Usage
+### Usage
 
 Copy the `.el` file to a place that your emacs can find.  Then, assuming you are
 already using `haskell-mode`, add to your `~/.emacs`:
@@ -30,7 +19,5 @@ already using `haskell-mode`, add to your `~/.emacs`:
 (add-hook 'haskell-mode-hook 'haskell-pretty-symbol-mode)
 ```
 
-If that doesn't make sense, it likely means you haven't done a lot of emacs
-bullshittery. In such a case, I don't encourage using this package.
-
+Can also use whatever hook or mechanism you like for enabling the mode.
 
