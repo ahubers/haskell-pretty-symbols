@@ -1,4 +1,4 @@
-## Haskell Pretty Symbol Mood
+## Haskell Pretty Symbol Mode
 
 This is a package which "replaces" common haskell syntax
 with pretty unicode. The strings are not actually replaced in file,
